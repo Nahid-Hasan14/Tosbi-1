@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parents {
+    width: 1000px;
+    height: 500px;
+    background-color: olivedrab;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.child{
+    display: grid;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.child button {
+    padding: 9px 5px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #43C6AC 0%, #191654  51%, #43C6AC  100%);
+    transition: 0.5s;
+    color: white; 
+    display: block;
+    box-shadow: 0 0 20px #eee;
+    background-size: 200% auto;
+    border: none;
+}
+.child h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.child button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+         
+ 
